@@ -1,0 +1,11 @@
+server:
+  port: 8080
+
+spring:
+  rabbitmq:
+    port: 5672
+    virtual-host: /
+    username: guest
+    password: guest
+    host: 192.168.10.107
+#    publisher-confirms: true
